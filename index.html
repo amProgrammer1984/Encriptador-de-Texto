@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang = "es">
+
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <link rel = "stylesheet" href = "style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300&display=swap" rel="stylesheet"> 
+    </head>
+    
+    <body>
+
+        <header class = "imagen">
+
+            <img class = "logo_alura" src = "Imagenes/VectorLogo.png" alt = "Logo alura">
+
+        </header>
+
+        <main>
+
+            <div class = "area_texto">
+                <textarea class = "input" id = "myText1" placeholder = "Introduzca el texto aqui... "></textarea>
+            </div>
+            
+            <div class = "resultado">
+                <textarea id = "mensaje_final" placeholder = "(Aqui se mostrará el texto encriptado/desencriptado)" readonly></textarea>
+                <button class = "boton" type = "submit" id = "myButton3">Copiar</button>
+            </div>
+
+            <div>
+                <p class = "condicion">Solo letras minusculas y sin acentos</p>
+            </div>
+
+            <div>
+
+                <table>
+                    <tr>
+                        <td><button class = "boton" type = "submit" id = "myButton1">Encriptar</button></td>
+                        <td><button class = "boton" type = "submit" id = "myButton2">Desencriptar</button></td>
+                    </tr>
+                </table>
+
+            </div>
+        
+        </main>
+    
+        <script src = "js.jsx">
+        </script> 
+    
+    </body>
+
+</html>

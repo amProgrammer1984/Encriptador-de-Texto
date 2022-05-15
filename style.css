@@ -1,0 +1,129 @@
+*
+{
+    font-family: 'Inter', sans-serif;
+
+}
+
+html
+{
+    width: 1440px;
+    height: 1024px; 
+}
+
+body
+{
+    width: 100%;
+    height: 100%; 
+    margin: 0 auto;
+    background: #E5E5E5
+}
+
+.imagen
+{
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    top: 40px;
+    left: 40px;
+    padding: 0px;
+}
+
+.logo_alura
+{
+    position: absolute;
+    left: 36.67%;
+    right: 37.43%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.area_texto
+{
+    display: inline-block;
+}
+
+.input
+{
+    display: inline;
+    font-size: 32px;
+    width: 680px;
+    height: 694px;
+    margin-left: 240px;
+    margin-top: 168px;
+    border: none;
+    padding: 5px;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+}
+
+.condicion
+{
+    margin: 0 0 0 250px;
+    font-size: 16px;
+    line-height: 18px;
+    color: #495057;
+}
+
+#myButton1
+{
+    margin: 15px 15px 72px 240px;
+    background-color: #0A3871;
+    color: white;
+}
+
+.boton
+{
+    width: 328px;
+    height: 67px;
+    padding: 24px;
+    margin: 15px 15px 72px 15px;
+    border-radius: 24px;
+    border-style: none;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    color: white;
+    border: 1px solid;
+    border-color: #0A3871;
+    color: #0A3871;
+}
+
+.resultado
+{
+    position: relative;
+    display: inline-block;
+    width: 25%;
+    height: 400px;
+    margin: 40px 40px 40px 81px;
+    vertical-align: top;
+}
+
+.resultado .boton
+{
+    position: absolute;
+    margin: 852px 32px 22px 32px;
+    border: 1px solid;
+    border-color: #0A3871;
+    color: #0A3871;
+}
+
+#mensaje_final
+{
+    position: absolute;
+    height: 944px;
+    width: 400px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    background-color: #FFFFFF;
+    resize: none;
+    outline: none;
+    font-size: 24px;
+}
+
+#mensaje_final::placeholder
+{
+    line-height: 40px;
+    font-size: 20px;
+    text-align: center;
+}
